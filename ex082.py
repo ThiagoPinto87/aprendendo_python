@@ -9,4 +9,13 @@ while True:
     resp = input('Quer continuar? [S/N]: ').strip().upper()
     if resp == 'N':
         break
+pares = []
+impares = []
+for n in numeros:
+    if n % 2 == 0:
+        pares.append(n)
+    else:
+        impares.append(n)
 print(f'Os números digitados foram: {numeros}')
+print(f'Pares: {pares}')
+print(f'Impares: {impares}')
