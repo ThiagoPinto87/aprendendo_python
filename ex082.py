@@ -17,5 +17,5 @@ for n in numeros:
     else:
         impares.append(n)
 print(f'Os números digitados foram: {numeros}')
-print(f'Pares: {pares}')
-print(f'Impares: {impares}')
+print(f'Pares digitados: {pares}')
+print(f'Impares digitados: {impares}')

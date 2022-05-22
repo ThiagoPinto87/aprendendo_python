@@ -15,8 +15,8 @@ while True:
 print('-=' * 20)
 print(f'Foram digitados {len(numero)} números.')
 numero.sort(reverse=True)
-print(f'Os números digitados foram {numero}')
+print(f'Os números digitados foram {numero}.')
 if 5 in numero:
-    print(f'O numero 5 foi digitado e está na posição {numero.index(5)+1}')
+    print(f'O numero 5 foi digitado e está na posição {numero.index(5)+1}.')
 else:
     print('O número 5 não foi digitado!')
