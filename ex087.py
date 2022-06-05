@@ -11,6 +11,6 @@ for l in range(3):  # Laço de repetição para preencher os índices da "matriz
 print('-=' * 20)
 for l in range(3):  # Laço de repetição para que ele imprima cada índice da lista individualmente até terminar a lista.
     for c in range(3):
-        print(f'[{matriz_numeros[l][c]:^5}]', end='')
+        print(f'[{matriz_numeros[l][c]:^5}]', end='')  # Centralização do texto utilizando 5 caracteres. ":^5"
     print()
 print('-=' * 20)
