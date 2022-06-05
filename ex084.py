@@ -3,6 +3,7 @@ a) Quantas pessoas foram cadastradas;
 b) Uma listagem com as pessoas mais pesadas;
 c) Uma listagem com as pessoas mais leves."""
 # FIZ ERRADO O EXERCÍCIO, EU NÃO COLOQUEI OS RESULTADOS EM UMA ÚNICA LISTA.
+# Depois corrigi após assistir o vídeo de resposta.
 
 triagem = []
 pessoas = []

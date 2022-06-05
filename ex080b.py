@@ -2,6 +2,8 @@
 correta de inserção (sem usar o sort()).
 No final, mostre a lista ordenada na tela."""
 
+# Forma de resolver do professor guanabara.
+
 lista = []
 ultimo_num = num = 0
 for n in range(5):

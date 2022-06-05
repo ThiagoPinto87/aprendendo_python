@@ -16,5 +16,3 @@ while True:
     else:
         break
 print(f'A lista digitada foi {sorted(lista)}')
-
-

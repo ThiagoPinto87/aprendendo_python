@@ -3,13 +3,15 @@ No final, mostre a matriz na tela, com a formatação correta."""
 
 # Forma que o professor Guanabara fez. Gostei mais dessa forma.
 
-lista = [[], [], []]  # Cria a lista para depois fazer a matriz.
-for c in range(3):  # Laço de repetição para fazer o primeiro índice da lista
-    for l in range(3):  # Armazena 3 números para cada índice da lista do laço de repetição acima.
-        num = int(input(f'Digite valor para [{c}, {l}]: '))  # Captura os números. Na estrutura já informa o índice que será inserido.
-        lista[c].append(num)  # Insere a lista de números em cada índice na variável lista.
-for x in lista:  # Laço de repetição para que ele imprima cada índice da lista individualmente até terminar a lista.
-    print(x)  # Imprime conforme determinado pelo laço.
+matriz_numeros = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]  # Cria a lista para depois fazer a matriz.
+for l in range(3):  # Laço de repetição para preencher os índices da "matriz_numeros".
+    for c in range(3):  # Armazena 3 números para cada índice da lista dentro da lista da "matriz_numeros".
+        matriz_numeros[l][c] = int(input(f'Digite valor para [{l}, {c}]: '))  # Captura os números. Na estrutura já informa o índice que será inserido.
+print('-=' * 20)
+for l in range(3):  # Laço de repetição para que ele imprima cada índice da lista individualmente até terminar a lista.
+    for c in range(3):
+        print(f'[{matriz_numeros[l][c]:^5}]', end='')
+    print()
 
 
 

@@ -3,6 +3,7 @@ correta de inserção (sem usar o sort()).
 No final, mostre a lista ordenada na tela."""
 
 # Não consegui fazer, precisei olhar a resposta do exercício.
+# Vale ressaltar que não copiei o script do professor, eu busquei entender para depois corrigir o meu código.
 
 lista = []
 ultimo_num = num = 0
