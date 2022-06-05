@@ -14,5 +14,11 @@ Já hávia iniciado o curso sobre HTML e CSS _(mesmo sabendo que são linguagens
 * Aprendi como subir finalmente do PyCharm para o GitHub, eu havia feito sem querer inicialmente, mas agora entendi como funciona a ferramenta.
 * Aprendi a estilizar um pouco melhor o GitHub para ficar mais amigável aos parceiros que quiserem colaborar comigo. _(Sejam todos bem vindos)_
 
-
+<h4>Em 04/06/2022</h4>
+* Por não ter conseguir resolver o exercício 86 e 87 tão satisfatóriamente quanto eu gostaria, eu decidi re-assistir às aulas 17 e 18 do curso em vídeo.
+Aula 17: <https://www.cursoemvideo.com/curso/python-3-mundo-3/aulas/listas-em-python/modulos/listas-parte-1/>
+Assisti também alguns exercícios pois dentro dos exercícios às vezes o professor insere infomrações importantes.
+Aula 18: <https://www.cursoemvideo.com/curso/python-3-mundo-3/aulas/listas-em-python/modulos/listas-parte-2/>
+* Entendi que meu erro no exercício 86 foi de não deixar preparada a variável "matriz_numeros" já com os números zerados, devendo serem só substituídos. Pois por mais que o professor guanabara tivesse dito, eu tentei (teimosamente) inserir as informações com o método ".append()", visto que eu não havia preenchida a variável com "0".
+* Foi importante também que por falta de praticar a manipulação de string's eu havia esquecido como deixar um resultado da forma como eu quero como por exemplo o resultado ser em 5 caractéres e centralizado, usando o comando ":^5".
 
