@@ -48,16 +48,27 @@ print(f'{i:<4}{a[0]:<15}{a[3]:>4.1f}')
 
 * Os dicionários são descritos em {}.
 
-* Para adicionar novos dados à lista com dicionários, não é necessário usar o append(), basta declarar o novo elemento como no exemplo:
+* Para adicionar novas chaves (keys) à lista com dicionários, não é necessário usar o *append()*, basta declarar o novo elemento como no exemplo:
 
 ```Python
+dados = {'nome': 'Thiago', 'idade': 35}
 dados['sexo'] = 'M'
+print(dados)
+
+out
+{'nome': 'Thiago', 'idade': 35, 'sexo': 'M'}
 ```
 
-* Para remover os dados, podemos usar o parâmetro del()
+* Para remover os dados, podemos usar o parâmetro *del()*.
 
 ```Python
+dados = {'nome': 'Thiago', 'idade': 35, 'sexo': 'M'}
 dados del ['idade']
+
+print(dados)
+
+out
+{'nome': 'Thiago', 'sexo': 'M'}
 ``` 
 
 * Outra forma de se fazer uma lista é:
@@ -65,18 +76,18 @@ dados del ['idade']
 ```Python
 filme = {'título = Stars Wars
          'ano' = 1977
-         'diretor' = 'Geroge Lucas'
+         'diretor' = 'Geroge Lucas'}
 ```
 O elementos como ‘título’, ‘ano’ e ‘diretor’, são conhecidos no python como chaves (Key’s)
 
 * É importante identificarmos as diferenças entre: Values, Keys e Items. Conforme demonstrações baixo:
-  * Values, são as infomações de dentro das keys
-  * As Keys são semelhantes aos índices em uma lista.
-  * Os items são todas as informações da lista como Keys e Values. São muito bem utilizadas nas estruturas de repetições.
+  * **Values**, são as infomações de dentro das keys
+  * As **Keys** são semelhantes aos índices em uma lista.
+  * Os **Items** são todas as informações da lista como Keys e Values. São muito bem utilizadas nas estruturas de repetições.
   
 * Nas estruturas de repetições, podemos misturar as 3 formas de estruturas (tuplas, listas e dicionários) podendo ser criado criado uma lista de locadoras (por exemplo) e cada índice dessa lista possuir um dicionário com Keys informando o título, o ano e o diretor.
   
-Ou seja um print() nessa estrutura seria da seguinte maneira:
+Ou seja um *print()* nessa estrutura seria da seguinte maneira:
 
 ```Python
 locadora = [{'titulo': 'Star Wars', 'ano': 1977, 'diretor': 'George Lucas'}, {{'titulo': 'Avangers', 'ano': 2012, 'diretor': 'Joss Whedon'}
@@ -105,7 +116,7 @@ for e in brasil:  # Cria laço de repetição para ler dentro da lista brasil.
     for u, s in e.items():  # Cria laço de repetição para ler dentro dos dicionários que estão dentro da lista brasil (utilizo o "e" e não o estado, pois ele está subordinado (identado) ao "for" acima.)
         print(f'O campo {u} tem valor {s}')  # Imprime os resultados dos dicionários em f'string.
 ```
-Como podemos observar no caso de listas usávamos o fatiamento de string que demosntra o total da string “[:]”. Para dicionários usa o métido próprio chamado *“copy()”*.
+Como podemos observar no caso de listas usávamos o fatiamento de string que demosntra o total da string *“[:]”*. Para dicionários usa o métido próprio chamado *“copy()”*.
 
 *  Aprendi também a realçar blocos de código em markdown, para ficar mais amigável o entendimento com vocês. Muito legal.
 
