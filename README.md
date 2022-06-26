@@ -118,6 +118,10 @@ for e in brasil:  # Cria laço de repetição para ler dentro da lista brasil.
 ```
 Como podemos observar no caso de listas usávamos o fatiamento de string que demosntra o total da string *“[:]”*. Para dicionários usa o métido próprio chamado *“copy()”*.
 
-*  Aprendi também a realçar blocos de código em markdown, para ficar mais amigável o entendimento com vocês. Muito legal.
+*  Aprendi também a realçar blocos de código em _markdown_, para ficar mais amigável o entendimento com vocês. Muito legal.
+
+<h4>Em 25/06/2022</h4>
+
+* Hoje somente criei os exercícios, nem tentei executá-los pois tive um dia bastante corrido e gostaria de ao menos ter deixado isso pronto hoje. Sei que foi bastante rapido, porém, me comprometo no próximo commit ter um progresso melhor.
 
 
