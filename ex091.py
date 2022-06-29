@@ -34,10 +34,10 @@ from operator import itemgetter
 print('-=-=-=- JOGO DE DADOS -=-=-=-')
 sleep(2.5)
 # Simula o jogo de cada jogador.
-jogo = {'Jogador 1': randint(1, 6),  # Cria cada key como nome de cada jogador e insere um resultado aleatório de 1 a 6.
-        'Jogador 2': randint(1, 6),
-        'Jogador 3': randint(1, 6),
-        'Jogador 4': randint(1, 6)}
+jogo = {'Jogador 1': randint(1, 6),  # Cria a key com o nome do jogador e insere um valor aleatório de 1 a 6.
+        'Jogador 2': randint(1, 6),  # Cria a key com o nome do jogador e insere um valor aleatório de 1 a 6.
+        'Jogador 3': randint(1, 6),  # Cria a key com o nome do jogador e insere um valor aleatório de 1 a 6.
+        'Jogador 4': randint(1, 6)}  # Cria a key com o nome do jogador e insere um valor aleatório de 1 a 6.
 
 ranking = list()  # Cria um novo dicionário chamado ranking.
 
