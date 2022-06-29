@@ -159,3 +159,27 @@ Como podemos observar no caso de listas usávamos o fatiamento de string que dem
 
 * Na resolução dos exercícios de hoje, fiz com facilidade o exercício 090, porém o 091 tive dificuldades pois além do professor ensinar um novo import, eu estava tentando criar dicionários com nome e jogo para depois inserir no dicionário, como não consegui, tentei fazer como na explicação da aula 19 e fazer como lista, porém, sem sucesso.
 Mas pude perceber que não é o caminho totalmente errado, pois no import do "operator", ele tranforma o dicionário em lista, pois inicialmente o prof. Guanabara até chegou de orientar a colocar o "ranking" como dicionário e o "operator" transformou o dicionário em lista. Com isso, me despertou a curiosidade de fazer como eu estava imaginando, bater um pouco a cabeça e tentar concluir o exercício como fiz inicialmente e depois usar o método "sort()" na lista de cada jogada.
+
+
+<h3>Em 28/06/2022</h3>
+
+* Hoje senti muita facilidade em ambos os exercícios:
+    * Exercício 092:
+    * Notei que o prof. Guanabara, utilizou um import diferente do que vinha utilizando como aconteceu nos exercícios 032 e 039 (não li sobre o import do <code>datetime</code> que ele utilizou dessa vez);
+    * Notei também que fiz codei diferente dele, conforme abaixo.
+```python
+Prof_Guanabara[]
+trabalhador = dict()
+trabalhador['nome'] = str(input('Nome: '))
+...
+
+Thiago[]
+trabalhador = {'nome': str(input('Nome: ')).strip().upper(),
+               'idade': date.today().year - int(input('Ano de nascimento: ')),
+               'ctps': int(input('Nº CTPS (0 se não tem): '))}
+
+```
+   
+   * Exercício 093:
+      * Fizemos um pouco diferentes, porém dessa vez, gostei mais da minha solução, visto que tive a atenção de enumerar para o usuário preencher no relatório a informação da primeira partida mostrando o número 1 e o prof. fez mostrando o índice da lista (deu mólim professor. rsrsrs. Abçs).
+      * Outro detalhe que gostei mais também, foi que no último _print_, pude treinar utilizando a toda a parte do fatiamento mesclando key com chave. Foi muito legal.
