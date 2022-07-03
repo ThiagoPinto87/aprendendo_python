@@ -184,7 +184,7 @@ trabalhador = {'nome': str(input('Nome: ')).strip().upper(),
       * Fizemos um pouco diferentes, porém dessa vez, gostei mais da minha solução, visto que tive a atenção de enumerar para o usuário preencher no relatório a informação da primeira partida mostrando o número 1 e o prof. fez mostrando o índice da lista (deu mólim professor. rsrsrs. Abçs).
       * Outro detalhe que gostei mais também, foi que no último _print_, pude treinar utilizando a toda a parte do fatiamento mesclando key com chave. Foi muito legal.
 
-<h3>Em 02/07/22</h3>
+<h3>Em 02/07/2022</h3>
 
 * Solucionei o exercício 094. Foi muito divertido resolver ele, apesar de quebrar um pouco a cabeça. A primeira parte que foi de escrever o programa em si, foi até facil, fazendo as validações e tudo mais.
 
