@@ -8,8 +8,8 @@ Já hávia iniciado o curso sobre HTML e CSS _(mesmo sabendo que são linguagens
 <h2>Diário de Aprendizagem</h2>
 
 ---
-
-<h3>06/2022</h3>
+<details>
+<summary><h3>Mês 06/2022</h3></summary>
 <details>   
    <summary>03/06/2022</summary>
    
@@ -193,8 +193,11 @@ trabalhador = {'nome': str(input('Nome: ')).strip().upper(),
       * Fizemos um pouco diferentes, porém dessa vez, gostei mais da minha solução, visto que tive a atenção de enumerar para o usuário preencher no relatório a informação da primeira partida mostrando o número 1 e o prof. fez mostrando o índice da lista (deu mólim professor. rsrsrs. Abçs).
       * Outro detalhe que gostei mais também, foi que no último _print_, pude treinar utilizando a toda a parte do fatiamento mesclando key com chave. Foi muito legal.
 </details>
-
-<h3>07/2022</h3>   
+</details>
+<details>
+   
+   
+<summary><h3>Mês 07/2022</h3></summary>
 <details>
    <summary>02/07/2022</summary>
 
@@ -399,4 +402,5 @@ Somando os valores(2, 9, 4), temos 15.
 ```
 
 * Aproveitei o embalo e já fiz o exercício 096 que foi bastante intuitivo, pois agora tenho que me forçar a pensar na forma de criação das funções e seuas interações.
+</details>
 </details>
