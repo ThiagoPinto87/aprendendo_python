@@ -47,6 +47,7 @@ print(f'{i:<4}{a[0]:<15}{a[3]:>4.1f}')
 <h3>Em 20/06/2022</h3>
 
 * Hoje consegui somente assistir a aula 19 do curso de Python do curso em vídeo, fiz diversas anotações das quais vou compartilhar com vocês aqui embaixo.
+    * Link para a [Aula 19](https://www.cursoemvideo.com/curso/python-3-mundo-3/aulas/dicionarios-em-python/modulos/dicionarios/)
 
 
 <h5>Dicionário</h5>
@@ -189,3 +190,199 @@ trabalhador = {'nome': str(input('Nome: ')).strip().upper(),
 * Solucionei o exercício 094. Foi muito divertido resolver ele, apesar de quebrar um pouco a cabeça. A primeira parte que foi de escrever o programa em si, foi até facil, fazendo as validações e tudo mais.
 
 * Na hora de imprirmir os resultados foi que quebrei um pouco mais a cabeça, foi bom que aprendi sozinho uma forma diferente da que o prof. Guanabara ensina e gostei de fazê-lo dessa forma, por isso até permaneci desse jeito.
+
+<h3>Em 13/07/2022</h3>
+
+* Assisti a aula 20 do mundo 3 do curso em vídeo, muito bom aprendi sobre funções sem parâmetros, com parâmetros e com listas.
+    * Segue link para [Aula 20](<https://www.cursoemvideo.com/curso/python-3-mundo-3/aulas/funcoes-em-python/modulos/funcoes-parte-1/>)
+
+* Compartilhando o aprendizado...
+    * Para criar uma função basta chamar o método <code>def()</code>, simples assim e assim criar diversas *rotinas* que o programa irá te ajudar fazer.
+
+* Função sem Parâmetros: Para chamar uma função sem parâmetros, basta chamar o método <code>def()</code>, descrever o nome da função, colocar os <code>()</code> e abaixo e aninhado (identado), programar a função a ser criada. Ex:
+        
+```python
+IN[]
+
+def lin():
+print('-' * 30)
+# O Python pede duas linhas após as funções
+
+
+lin()
+print('  THIAGO PINTO É BOM ')
+lin()
+
+OUT[]
+------------------------------
+  THIAGO PINTO É BOM 
+------------------------------
+```
+
+* Função *com* Parâmetros: Para chamar uma função com parâmetros, basta chamar o método <code>def</code>, descrever o nome da função, colocar os <code>()</code> onde dentro dele estará o nome do parâmetro a ser colocado na função ex: <code>(txt)</code> e abaixo e aninhado (identado), programar a função a ser criada. Ex:
+        
+        
+```python
+
+IN[]
+
+
+def título(txt):
+    print('-' * 30)
+    print(txt)
+    print('-' * 30)
+
+
+título('   THIAGO É MUITO BOM!    ')
+
+OUT[]
+------------------------------
+   THIAGO É MUITO BOM!    
+------------------------------
+```
+
+* outros exemplos de parâmetros são:
+    
+```python
+IN[]
+
+
+def soma(a, b):
+    s = a + b
+    print(s)
+
+
+# Programa Principal
+soma(4, 5)
+soma(8, 9)
+soma(2, 1)
+soma(b=3, a=18)  # Pode-se inclusive indicar qual é cada parâmetro, inclusive sem seguir a ordem de parâmetros criada na função.
+
+"""# soma(4)"""  # Essa função dará erro, pois a função criada, pede dois parâmetros "(a, b) e foi colocado somente 1 "4".
+
+
+OUT[]
+
+9
+17
+3
+21
+```
+
+```python
+IN[]
+
+def soma(a, b):
+    print(f'A = {a} e B = {b}')
+    s = a + b
+    print(f'A soma de A + B é: {s}')
+    print(s)
+
+
+# Programa Principal
+soma(b=4, a=5)
+
+OUT[]
+A = 5 e B = 4
+A soma de A + B é: 9
+9
+```
+
+* Podemos também empacotar funções (coisa que várias linguagens não fazem) onde a única diferença da forma anterior é somente colocar um "*" antes do nome do parâmetro como nos exemplos abaixo.
+
+```python
+IN[]
+
+def contador(* núm):
+    print(núm)
+
+
+contador(5, 6, 9)
+contador(3, 2, 1)
+contador(9, 8, 5, 1, 3, 8, 7)
+
+OUT[]
+
+(5, 6, 9)
+(3, 2, 1)
+(9, 8, 5, 1, 3, 8, 7)
+
+```
+
+```python
+IN[]
+
+def contador(* núm):
+    for valor in núm:
+        print(f'{valor} | ', end='')
+    print('FIM!')
+
+
+contador(5, 6, 9)
+contador(3, 2, 1)
+contador(9, 8, 5, 1, 3, 8, 7)
+
+OUT[]
+5 | 6 | 9 | FIM!
+3 | 2 | 1 | FIM!
+9 | 8 | 5 | 1 | 3 | 8 | 7 | FIM!
+```
+
+```python
+IN[]
+def contador(* núm):
+    tam = len(núm)
+    print(f'Recebi os valores {núm} eles tem o tamanho de {tam} números.')
+
+
+contador(5, 6, 9)
+contador(3, 2, 1, 0)
+contador(9, 8, 5, 1, 3, 8, 7)
+
+OUT[]
+Recebi os valores (5, 6, 9) eles tem o tamanho de 3 números.
+Recebi os valores (3, 2, 1, 0) eles tem o tamanho de 4 números.
+Recebi os valores (9, 8, 5, 1, 3, 8, 7) eles tem o tamanho de 7 números.
+```
+
+* Função com listas: Essas funções vão ser bastante úteis, visto que nas formas anteriores, os resultados das funções saem como tuplas. Porém da forma abaixo, elas saem como lista o que pode ser interessante para criar diversas funções bem específicas. veja alguns exemplos.
+    
+    
+```python
+IN[]
+def dobra(lst):
+    pos = 0
+    while pos < len(lst):
+        lst[pos] *= 2
+        pos += 1
+
+
+valores = [6, 3, 9, 1, 0, 2]
+dobra(valores)
+print(valores)
+
+OUT[]
+[12, 6, 18, 2, 0, 4]
+```
+
+```python
+IN[]
+
+def soma(* valores):
+    s = 0
+    for num in valores:
+        s += num
+    print(f'Somando os valores{valores}, temos {s}.')
+
+
+soma(5, 2)
+soma(2, 9, 4)
+
+
+OUT[]
+
+Somando os valores(5, 2), temos 7.
+Somando os valores(2, 9, 4), temos 15.
+```
+
+* Aproveitei o embalo e já fiz o exercício 096 que foi bastante intuitivo, pois agora tenho que me forçar a pensar na forma de criação das funções e seuas interações.
