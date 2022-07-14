@@ -9,30 +9,34 @@ Já hávia iniciado o curso sobre HTML e CSS _(mesmo sabendo que são linguagens
 
 ---
 
-
-<h3>Em 03/06/2022</h3>
-
+<h3>06/2022</h3>
+<details>   
+   <summary>03/06/2022</summary>
+   
 * Aprendi como subir finalmente do PyCharm para o GitHub, eu havia feito sem querer inicialmente, mas agora entendi como funciona a ferramenta.
 * Aprendi a estilizar um pouco melhor o GitHub para ficar mais amigável aos parceiros que quiserem colaborar comigo. _(Sejam todos bem vindos)_
+</details>
 
-
-<h3>Em 04/06/2022</h3>
+<details>   
+   <summary>04/06/2022</summary>
 
 * Por não ter conseguido resolver o exercício 86 e 87 tão satisfatóriamente quanto eu gostaria, eu decidi reassistir às aulas 17 e 18 do curso em vídeo. (Assisti também alguns exercícios pois dentro dos exercícios às vezes o professor insere informações importantes.)
     * Aula 17: [link para a aula](<https://www.cursoemvideo.com/curso/python-3-mundo-3/aulas/listas-em-python/modulos/listas-parte-1/>)
     * Aula 18: [link para a aula](<https://www.cursoemvideo.com/curso/python-3-mundo-3/aulas/listas-em-python/modulos/listas-parte-2/>)
 * Entendi que meu erro no exercício 86 foi de não deixar preparada a variável "matriz_numeros" já com os números zerados, devendo serem só substituídos. Pois por mais que o professor guanabara tivesse dito, eu tentei (teimosamente) inserir as informações com o método <code>.append()</code>, visto que eu não havia preenchido a variável com "0".
 * Foi importante também que por falta de praticar a manipulação de string's eu havia esquecido como deixar um resultado da forma como eu quero como por exemplo o resultado ser em 5 caractéres e centralizado, usando o comando <code>:^5</code>.
+</details>
 
-
-<h3>Em 08/06/2022</h3>
+<details>   
+   <summary>08/06/2022</summary>
 
 * No final de semana do dia 04/06, fiquei bastante ruim com uma gripe muito forte. Até suspeitei de COVID, mas graças a Deus o resultado foi negativo para a doença mas vamos lá, sem chorumelas!
 * Na atualização de hoje é que fui cair na real que a variável <code>matriz_numeros[l][c]</code> onde <code>[l][c]</code> trata-se dos respectivos índices dos valores da variável. Depois que entendi isso ficou mais fácil, mesmo assim, precisei assistir o vídeo da resolução do exercício mais uma vez para consertar alguns erros. Identifiquei também que cada vez que faço comentários sobre cada passo, consigo absorver melhor o conhecimento do que estou fazendo.
 * Estou também apendendo e mexer no aplicativo notion do site <notion.so>, muito bacana. Dá pra fazer muita coisa nele!
+</details>
 
-
-<h3>Em 18/06/2022</h3>
+<details>   
+   <summary>18/06/2022</summary>
 
 * Fiquei bastante dia sem estudar e isso me deixou muito triste comigo mesmo, me mantenho empenhado em aprender, porém, a desculpa dessa vez foi a visita de meu pai que chegou de viagem e como vejo ele poucas vezes no ano, dei prioridade a ele.
 * Hoje finalizei os exercícios 088 e 089. Fiquei bravo comigo mesmo pois percebi que fiz o exercício 088 mais copiando do que de fato aprendendo, sorte a minha que me exijo bastante comentando cada string o que me ajuda a absorver as informações.
@@ -42,9 +46,10 @@ Já hávia iniciado o curso sobre HTML e CSS _(mesmo sabendo que são linguagens
 ```Python
 print(f'{i:<4}{a[0]:<15}{a[3]:>4.1f}')
 ```
+</details>
 
-
-<h3>Em 20/06/2022</h3>
+<details>   
+   <summary>20/06/2022</summary>
 
 * Hoje consegui somente assistir a aula 19 do curso de Python do curso em vídeo, fiz diversas anotações das quais vou compartilhar com vocês aqui embaixo.
     * Link para a [Aula 19](https://www.cursoemvideo.com/curso/python-3-mundo-3/aulas/dicionarios-em-python/modulos/dicionarios/)
@@ -149,20 +154,23 @@ O campo sigla tem valor AC
 Como podemos observar no caso de listas usávamos o fatiamento de string que demosntra o total da string <code>[:]</code>. Para dicionários usa o métido próprio chamado <code>copy()</code>.
 
 *  Aprendi também a realçar blocos de código em _markdown_, para ficar mais amigável o entendimento com vocês. Muito legal.
+</details>
 
-
-<h3>Em 25/06/2022</h3>
+<details>   
+   <summary>25/06/2022</summary>
 
 * Hoje somente criei os exercícios, nem tentei executá-los pois tive um dia bastante corrido e gostaria de ao menos ter deixado isso pronto hoje. Sei que foi bastante rapido, porém, me comprometo no próximo commit ter um progresso melhor.
+</details>
 
-
-<h3>Em 26/06/2022</h3>
+<details>   
+   <summary>26/06/2022</summary>
 
 * Na resolução dos exercícios de hoje, fiz com facilidade o exercício 090, porém o 091 tive dificuldades pois além do professor ensinar um novo import, eu estava tentando criar dicionários com nome e jogo para depois inserir no dicionário, como não consegui, tentei fazer como na explicação da aula 19 e fazer como lista, porém, sem sucesso.
 Mas pude perceber que não é o caminho totalmente errado, pois no import do <code>operator</code>, ele tranforma o dicionário em lista, pois inicialmente o prof. Guanabara até chegou de orientar a colocar o "ranking" como dicionário e o <code>operator</code> transformou o dicionário em lista. Com isso, me despertou a curiosidade de fazer como eu estava imaginando, bater um pouco a cabeça e tentar concluir o exercício como fiz inicialmente e depois usar o método <code>sort()</code> na lista de cada jogada.
+</details>
 
-
-<h3>Em 28/06/2022</h3>
+<details>   
+   <summary>28/06/2022</summary>
 
 * Hoje senti muita facilidade em ambos os exercícios:
     * Exercício 092:
@@ -184,15 +192,20 @@ trabalhador = {'nome': str(input('Nome: ')).strip().upper(),
    * Exercício 093:
       * Fizemos um pouco diferentes, porém dessa vez, gostei mais da minha solução, visto que tive a atenção de enumerar para o usuário preencher no relatório a informação da primeira partida mostrando o número 1 e o prof. fez mostrando o índice da lista (deu mólim professor. rsrsrs. Abçs).
       * Outro detalhe que gostei mais também, foi que no último _print_, pude treinar utilizando a toda a parte do fatiamento mesclando key com chave. Foi muito legal.
+</details>
 
-<h3>Em 02/07/2022</h3>
+<h3>07/2022</h3>   
+<details>
+   <summary>02/07/2022</summary>
 
 * Solucionei o exercício 094. Foi muito divertido resolver ele, apesar de quebrar um pouco a cabeça. A primeira parte que foi de escrever o programa em si, foi até facil, fazendo as validações e tudo mais.
 
 * Na hora de imprirmir os resultados foi que quebrei um pouco mais a cabeça, foi bom que aprendi sozinho uma forma diferente da que o prof. Guanabara ensina e gostei de fazê-lo dessa forma, por isso até permaneci desse jeito.
+</details>
 
-<h3>Em 13/07/2022</h3>
-
+<details>
+   <summary>13/07/2022</summary>
+   
 * Assisti a aula 20 do mundo 3 do curso em vídeo, muito bom aprendi sobre funções sem parâmetros, com parâmetros e com listas.
     * Segue link para [Aula 20](<https://www.cursoemvideo.com/curso/python-3-mundo-3/aulas/funcoes-em-python/modulos/funcoes-parte-1/>)
 
@@ -386,3 +399,4 @@ Somando os valores(2, 9, 4), temos 15.
 ```
 
 * Aproveitei o embalo e já fiz o exercício 096 que foi bastante intuitivo, pois agora tenho que me forçar a pensar na forma de criação das funções e seuas interações.
+</details>
