@@ -6,3 +6,14 @@ Saída:
 ~~~~~~~~~~~~
  Olá, Mundo!
 ~~~~~~~~~~~~"""
+
+def escreva(txt):
+    print('~~'+'~' * len(txt)+'~~')
+    print('  '+txt)
+    print('~~'+'~' * len(txt)+'~~')
+
+
+# Programa principal
+'''escreva(str(input('Digite o texto: ').upper()))'''
+escreva('Mensagem personalizada')
+
