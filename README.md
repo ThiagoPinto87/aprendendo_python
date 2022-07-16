@@ -403,4 +403,11 @@ Somando os valores(2, 9, 4), temos 15.
 
 * Aproveitei o embalo e já fiz o exercício 096 que foi bastante intuitivo, pois agora tenho que me forçar a pensar na forma de criação das funções e seuas interações.
 </details>
+
+<details>
+   <summary>15/07/2022</summary>
+
+* Na resolução do exercício 97, fiz um pouco diferente do prof. Guanabara, mas a forma dele foi mais inteligente.
+* No exercício 98, comecei até bem, porém, não tive os insights para terminar o exercício sozinho. Tive que olhar a solução do professor. Apesar de serem soluções que já aprendi, vejo que tenho que buscar a pensar mais como fatiar cada processo que o programa tem que fazer e observar mais qual string deve vir primeiro e suas corretas indentações. Mas no geral, sei que tive a idéia correta. Só não consegui implementar.
+
 </details>
