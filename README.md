@@ -411,3 +411,11 @@ Somando os valores(2, 9, 4), temos 15.
 * No exercício 98, comecei até bem, porém, não tive os insights para terminar o exercício sozinho. Tive que olhar a solução do professor. Apesar de serem soluções que já aprendi, vejo que tenho que buscar a pensar mais como fatiar cada processo que o programa tem que fazer e observar mais qual string deve vir primeiro e suas corretas indentações. Mas no geral, sei que tive a idéia correta. Só não consegui implementar.
 
 </details>
+
+<details>
+   <summary>23 e 25/07/2022</summary>
+
+* Após alguns dias sem estudar e já sofrendo abstinência, no dia 23/07 decidi fazer o exercício 99 sem relembrar a aula 20, pois queria trabalhar um pouco minha memória. Como não consegui compreender a montagem inicial da solução do exercício, tive dificuldades e decidi no dia 23 mesmo ver a resposta e fazer junto com o professor. Pode observar que tentei, pois partes do script que fiz está diferente do professor pois reaproveitei o que eu já havia produzido.
+* No dia 25, decidi recriar o exercício (99b) para tentar fazer sem olhar buscando fazer do meu jeito. Como comecei tarde, acabei não criando a funcionalidade sleep pois identifiquei que na versão que estou utilizando do pyhton (2022.1.3) ainda persiste a inconsistencia na biblioteca dentro da função conforme dito pelo professor. Como já tem quase um ano do vídeo criado, começo a me perguntar... Será que é uma inconsistencia mesmo?
+
+</details>
