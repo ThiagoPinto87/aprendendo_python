@@ -5,9 +5,7 @@ valores pares sorteados pela função anterior."""
 # Importação de bibliotecas
 from random import randint
 
-numeros = list()  # podia ser "[]"
-
-
+# Funções
 def sorteia():
     for numero in range(0, 5):
         numero = randint(0, 9)
@@ -28,5 +26,7 @@ def soma_par():
     print(soma)
 
 
+# PROGRAMA PRINCIPAL
+numeros = list()  # podia ser "[]"
 sorteia()
 soma_par()
