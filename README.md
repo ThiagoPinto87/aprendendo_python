@@ -194,9 +194,10 @@ trabalhador = {'nome': str(input('Nome: ')).strip().upper(),
       * Outro detalhe que gostei mais também, foi que no último _print_, pude treinar utilizando a toda a parte do fatiamento mesclando key com chave. Foi muito legal.
 </details>
 </details>
+
+
 <details>
-   
-   
+  
 <summary><h3>Mês 07/2022</h3></summary>
 <details>
    <summary>02/07/2022</summary>
@@ -418,4 +419,17 @@ Somando os valores(2, 9, 4), temos 15.
 * Após alguns dias sem estudar e já sofrendo abstinência, no dia 23/07 decidi fazer o exercício 99 sem relembrar a aula 20, pois queria trabalhar um pouco minha memória. Como não consegui compreender a montagem inicial da solução do exercício, tive dificuldades e decidi no dia 23 mesmo ver a resposta e fazer junto com o professor. Pode observar que tentei, pois partes do script que fiz está diferente do professor pois reaproveitei o que eu já havia produzido.
 * No dia 25, decidi recriar o exercício (99b) para tentar fazer sem olhar buscando fazer do meu jeito. Como comecei tarde, acabei não criando a funcionalidade sleep pois identifiquei que na versão que estou utilizando do pyhton (2022.1.3) ainda persiste a inconsistencia na biblioteca dentro da função conforme dito pelo professor. Como já tem quase um ano do vídeo criado, começo a me perguntar... Será que é uma inconsistencia mesmo?
 
+</details>
+</details>
+
+<details>
+<summary><h3>Mês 08/2022</h3></summary>
+
+<details>
+   <summary>09/08/2022</summary>
+
+* Retornei aos estudos novamente já resolvendo o exercício 100. Porém para resolvê-lo precisei relembrar a aula 20 e daí foi fácil, foi só jogar as funções na tela e correr pro abraço.
+* Aproveitei já assisti a aula 21 que ficou bem cumprida e vou tentar resumir a aula aqui amanhã no meu horário de almoço.
+* Já criei também os exercícios 101 a 106 para começar a fazer também nessa semana.
+</details>
 </details>
