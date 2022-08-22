@@ -432,4 +432,16 @@ Somando os valores(2, 9, 4), temos 15.
 * Aproveitei já assisti a aula 21 que ficou bem cumprida e vou tentar resumir a aula aqui amanhã no meu horário de almoço.
 * Já criei também os exercícios 101 a 106 para começar a fazer também nessa semana.
 </details>
+
+<details>
+   <summary>22/08/2022</summary>
+
+* Sim... Estou devendo o resumo da aula 21, mas vou repassar para vocês assim que possível, pois não quero fazer somente colando aqui no corpo do README, quero fazer com todas as imagens e detalhes que vocês merecem.
+* Resolvi as aulas 101 a 103 hoje aproveitando mais um momento de enfermidade que tive (já aproveitei e tomei uma benzetacil pra resolver de vez isso. Caso não saiba o que é, veja um vídeo do Thiago Ventura no youtube, é bem engraçado o jeito dele falar da experiência que ele teve ao tomá-la também).
+CHEEEGAAAA de enrolação, bora pras observações.
+    * Ex101 - Consegui fazê-lo com tranquilidade porém eu havia me esquecido de como utilizar a função <code>date</code> após a importação da biblioteca <code>datetime</code>, depois que relembrei assistindo a parte do vídeo onde demonstrava, pausei, e daí executei o exercício e vi que havia dado tudo certo. Sabia no fundo que esse era o único erro.
+    * ex102 - Resolvi sozinho, Um desafio que tive, foi entender que o show vem como padrão <code>True</code> depois de fazer alguns testes, entendi que tem que começar com <code>False</code> e daí beleza. O único problema é que me faltou criatividade ao final em descrever na formula finalizando o total da fatoração com o símbolo de "=". Mas a formula estava OK também. Muito legal.
+    * ex103 - Tive duas situações, primeiro que barrei na questão do número de gols não aceitar o 0, portanto, depois de quebrar um pouco a cabeça, decidi olhar a forma de resolver o exercício e aí comprendi e uma coisa me chamou a atenção, vi que o professor Guanabara não chamou a função <code>ficha()</code> dele. Aliás, corrijo aqui o que eu estava escrevendo, vi sim que ele chamou a função <code>ficha()</code> quando estava validando a variável <code>n</code>. A outra situação é que eu não consegui fazer com que o parâmetro "desconhecido" no meu parâmetro <code>nome_jogador()</code> ficasse como opicional já com a descrição "<desconhecido>".
+OBS: Será que estou ficando preguiçoso demais ao estudar olhando diretamente o resultado no vídeo do respectivo exercício? Acho que eu deveria "googlar" mais ao invés de buscar o resultado no exercício. Puxando na memória aqui... Eu fazia isso com mais afinco no início, agora eu faço sim, porém com menos perseverança.
+</details>
 </details>
