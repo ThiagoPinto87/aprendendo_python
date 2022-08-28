@@ -457,7 +457,7 @@ OBS: Será que estou ficando preguiçoso demais ao estudar olhando diretamente o
 <details>
 <summary>27/08/2022</summary>
 
-* Assiti a aula 22, a qual eu já vou compartilhar aqui com vocês!
+* Assiti a aula 22, a qual já vou compartilhar aqui com vocês e resolução do exercício 107.
 
    <details>
    <summary><h4>MODULARIZAÇÃO</h4></summary>
@@ -539,6 +539,13 @@ OBS: Será que estou ficando preguiçoso demais ao estudar olhando diretamente o
    
    ![image](https://user-images.githubusercontent.com/91860056/187089295-d3c94e6c-3492-436c-a680-b34dc1e86327.png)
 
+* Ex107 - Criei as pastas conforme recomendado pelo professor Guanabara (Por isso, excluí o arquivo anterior denominado (ex.107.py).
+![image](https://user-images.githubusercontent.com/91860056/187089571-c3bfd8e4-34c9-43e2-899b-0504b0c17827.png)
+
+   Resolvi o exercício com facilidade, criei até mais funções para praticar. Contudo, eu havia criado cada função já com a função <code>return</code> com a formula, direto e objetivo. Mas, como o professor orientou a criar a variável <code>res</code> (já visualizando soluções futuras) já fiz o devido ajuste conforme orientado.
+      
 </details>
+
+
 
 </details>
