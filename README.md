@@ -444,4 +444,101 @@ CHEEEGAAAA de enrolação, bora pras observações.
     * ex103 - Tive duas situações, primeiro que barrei na questão do número de gols não aceitar o 0, portanto, depois de quebrar um pouco a cabeça, decidi olhar a forma de resolver o exercício e aí comprendi e uma coisa me chamou a atenção, vi que o professor Guanabara não chamou a função <code>ficha()</code> dele. Aliás, corrijo aqui o que eu estava escrevendo, vi sim que ele chamou a função <code>ficha()</code> quando estava validando a variável <code>n</code>. A outra situação é que eu não consegui fazer com que o parâmetro "desconhecido" no meu parâmetro <code>nome_jogador()</code> ficasse como opicional já com a descrição "<desconhecido>".
 OBS: Será que estou ficando preguiçoso demais ao estudar olhando diretamente o resultado no vídeo do respectivo exercício? Acho que eu deveria "googlar" mais ao invés de buscar o resultado no exercício. Puxando na memória aqui... Eu fazia isso com mais afinco no início, agora eu faço sim, porém com menos perseverança.
 </details>
+
+ <details>
+ <summary>26/08/2022</summary>
+
+* Resolvi os exercícios 104 a 106 aproveitando uma folga no serviço.
+   * Ex104 - Consegui resolver, porém assistindo a resposta do exercício. O Conceito em si, eu consegui fazer mas não dava a resposta de forma satisfatória, por isso decidi assistir o vídeo.
+   * Ex105 - Eu estava tentando fazer o exercício construindo as formulas e com isso, tive dificuldades em concluir o exercício. Para verificar onde estava errando, eu busquei assistir o vídeo da resposta e pude verificar que o professor estava fazendo de forma bem mais simples. Parei de assistir o vídeo ainda no início (quano identifiquei a proposta do professor) e concluí daí pra frente. Foi satisfatório também apesar de ter assistido a resposta.
+   * Ex106 - Consegui chegar ao resultado final, porém, quanto a colocar as perfumarias, foi bom relembrar (quero criar aqui um repositório somente com informações e dicas de como usar as cores com o código ANSI para que no futuro eu possa usar quando necessário e deixar colaborativo com quem nos acompanha.
+</details>
+
+<details>
+<summary>27/08/2022</summary>
+
+* Assiti a aula 22, a qual eu já vou compartilhar aqui com vocês!
+
+   <details>
+   <summary><h4>MODULARIZAÇÃO</h4></summary>
+   Trata-se de dividir o programa em módulos de forma a possibilitar sua melhor compreensão em leitura, bem como também sua manutenção, dividindo-o em várias partes (vários módulos).
+
+   Um exemplo simbólico disso é quando precisamos criar um programa como o abaixo.
+
+   ```Python
+   def fatorial(n):
+       f = 1
+       for c in range(1, n+1):
+           f *= c
+       return f
+
+
+   def dobro(n):
+       return n * 2
+
+
+   def triplo(n):
+       return n * 3
+
+
+   num = int(input("Digite um valor: "))
+   fat = fatorial(num)
+   print(f'O fatorial de {num} é {fat}.')
+   print(f'O dobro de {num} é {dobro(num)}.')
+   print(f'O triplo de {num} é {triplo(num)}.')
+   ```
+
+   Ocorre que o programa fica um pouco grande e para melhor dividi-lo, foi decidido que teremos que separar as funções em outro módulo.
+
+   Com isso, basta criar um novo arquivo com extensão *.py, nomear o arquivo como por exemplo “uteis.py”, colocar as funções nela e no arquivo do programa principal, importar as funções usando o método <code>import</code>.
+
+   Com isso as funções também deverão ser renomeadas conforme abaixo.
+
+   * Arquivo programa principal
+   ```Python
+   import uteis
+
+   num = int(input("Digite um valor: "))
+   fat = uteis.fatorial(num)
+   print(f'O fatorial de {num} é {fat}.')
+   print(f'O dobro de {num} é {uteis.dobro(num)}.')
+   print(f'O triplo de {num} é {uteis.triplo(num)}.')
+   ```
+
+   * Arquivo “uteis.py”
+   ```Python
+   def fatorial(n):
+       f = 1
+       for c in range(1, n+1):
+           f *= c
+       return f
+
+
+   def dobro(n):
+       return n * 2
+
+
+   def triplo(n):
+       return n * 3
+   ```
+   
+   * É importante também ressaltar que podemos usar o método <code>from [nome do módulo] import [nome da função]</code> para que se possa importar somente as funções necessárias e não custar memória de processamento de todo o módulo como somente na função <code>import</code>
+   </details>
+   
+   <details>
+   <summary><h4>PACOTES</h4></summary>
+   Os pacotes nada mais são que pastas para que armazenam modulações de forma a organizá-las como por exemplo, dividi-las por assunto conforme imagem abaixo.
+   
+   ![image](https://user-images.githubusercontent.com/91860056/187089210-96645293-e831-412e-a94e-ed3312518f90.png)
+   
+   Com isso, podemos organiza-los melhor:
+   
+   ![image](https://user-images.githubusercontent.com/91860056/187089273-1427ef97-3ca2-4809-b67e-2f205c1c1400.png)
+   
+   E para os pacotes, em sua maioria, teremos que ter os arquivos "__init__.py" em cada um deles conforme demonstrado abaixo.
+   
+   ![image](https://user-images.githubusercontent.com/91860056/187089295-d3c94e6c-3492-436c-a680-b34dc1e86327.png)
+
+</details>
+
 </details>
