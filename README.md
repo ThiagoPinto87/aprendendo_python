@@ -455,7 +455,7 @@ OBS: Será que estou ficando preguiçoso demais ao estudar olhando diretamente o
 </details>
 
 <details>
-<summary>27/08/2022</summary>
+<summary>27 e 28/08/2022</summary>
 
 * Assiti a aula 22, a qual já vou compartilhar aqui com vocês e resolução do exercício 107.
 
