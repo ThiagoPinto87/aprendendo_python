@@ -545,7 +545,16 @@ OBS: Será que estou ficando preguiçoso demais ao estudar olhando diretamente o
    Resolvi o exercício com facilidade, criei até mais funções para praticar. Contudo, eu havia criado cada função já com a função <code>return</code> com a formula, direto e objetivo. Mas, como o professor orientou a criar a variável <code>res</code> (já visualizando soluções futuras) já fiz o devido ajuste conforme orientado.
       
 </details>
+</details>
 
+<details>
+<summary><h3>Mês 09/2022</h3></summary>
+
+<details>
+<summary>03/09/2022</summary>
+
+* Ex 108 a 112 - Resolvi os exercícios praticamente tudo em uma pancada, pois como o conteúdo não foi dificil, na verdade foi bem exemplificativo, tive somente que ir acompanhando com as aulas pois como um era sequencia do outro e como o professor Guanabara recomendou no exercício 107 (resolvido no dia 28/08/22) que uma das funções serviriam para as demais, acabei fazendo juntamente com a resolução, de forma que assim que entendi a idéia, resolvi o exercício e já deixei pronto de forma somente a fazer alguns ajustes finos conforme o professor nos repassou. Quero ver se amanhã eu já assisto a aula 23 e já faço o resumo para nós.
+</details>
 
 
 </details>
