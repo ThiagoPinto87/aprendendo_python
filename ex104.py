@@ -9,7 +9,7 @@ def leia_int(msg):
     valor = 0
     while True:
         resultado = str(input(msg))
-        if msg.isnumeric():
+        if resultado.isnumeric():
             valor = int(resultado)
             ok = True
         else:
