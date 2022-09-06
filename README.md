@@ -556,5 +556,10 @@ OBS: Será que estou ficando preguiçoso demais ao estudar olhando diretamente o
 * Ex 108 a 112 - Resolvi os exercícios praticamente tudo em uma pancada, pois como o conteúdo não foi dificil, na verdade foi bem exemplificativo, tive somente que ir acompanhando com as aulas pois como um era sequencia do outro e como o professor Guanabara recomendou no exercício 107 (resolvido no dia 28/08/22) que uma das funções serviriam para as demais, acabei fazendo juntamente com a resolução, de forma que assim que entendi a idéia, resolvi o exercício e já deixei pronto de forma somente a fazer alguns ajustes finos conforme o professor nos repassou. Quero ver se amanhã eu já assisto a aula 23 e já faço o resumo para nós.
 </details>
 
+<details>
+<summary>05/09/2022</summary>
+
+* Ex 113 a 115 - Resolvi os exercícios, porém estou muito empolgado com o exercício 115. Este exercício, tenho certeza que vou praticá-lo várias vezes, buscando idéias diferentes para poder compreender bem todos os conteúdos aplicados. Vou até listar algumas idéias: Criar agenda telefônica, Cadastro de produtos, Controle de contratos e Controle de processos.
+</details>
 
 </details>
