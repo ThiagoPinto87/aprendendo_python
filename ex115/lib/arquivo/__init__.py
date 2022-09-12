@@ -17,7 +17,7 @@ def criar_arquivo(nome_arquivo):
     try:
         criando = open(nome_arquivo, 'wt+')  # O parâmetro "wt" quer dizer escreva texto, o "+" quer dizer crie caso
         criando.write('NOME;IDADE\n')
-        # não tenha.
+        # não tenha o arquivo.
         criando.close()
     except:
         print('Não foi possível criar o banco de dados.')
@@ -44,7 +44,7 @@ def ler_arquivo(nome_arquivo):
 
 def cadastrar(nome_arquivo, nome='DESCONHECIDO', idade=0):
     try:
-        cadastrando = open(nome_arquivo, 'at')
+        cadastrando = open(nome_arquivo, 'at')  # O "at" quer dizer que ele abrirá pra escrever inserindo ao final.
     except:
         print('ERRO ao abrir o arquivo ao cadastrar pessoas.')
     else:
