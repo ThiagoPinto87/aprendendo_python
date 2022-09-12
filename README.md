@@ -1,4 +1,4 @@
-<h6 align="center"> 🚧 Atualmente em produção 🚧 </h6>
+<h6 align="center"> ✔️ FINALIZADO ✔️ </h6>
 <h1> Aprendendo Python </h1>
 
 Estou iniciando os estudos em programação.
@@ -560,6 +560,13 @@ OBS: Será que estou ficando preguiçoso demais ao estudar olhando diretamente o
 <summary>05/09/2022</summary>
 
 * Ex 113 a 115 - Resolvi os exercícios, porém estou muito empolgado com o exercício 115. Este exercício, tenho certeza que vou praticá-lo várias vezes, buscando idéias diferentes para poder compreender bem todos os conteúdos aplicados. Vou até listar algumas idéias: Criar agenda telefônica, Cadastro de produtos, Controle de contratos e Controle de processos.
+</details>
+
+<details>
+<summary>11/09/2022</summary>
+
+* 115 - Resolvi todo o exercício, fazendo algumas melhorias. Para resolver, antes de começar a codar, assisti as aulas 115 a, b e c umas 2 vezes para resolver. Tive que fazer olhando quando tinha dúvidas que foram poucas (basicamente em detalhes mesmo) pois entendi a idéia. Levei bastante tempo para resolver mas achei todo o curso muito legal.
+Parabéns ao professor Gustavo Guanabara e toda a equipe do Curso em Vídeo. Muito obrigado por compartilhar o conhecimento de vocês que Deus os abençoe.
 </details>
 
 </details>
